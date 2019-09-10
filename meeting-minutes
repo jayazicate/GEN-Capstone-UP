@@ -19,3 +19,81 @@ September 9th: Weekly Meeting with Professor Oberoi
     3. Be persistent with our communication
       a. Email all then if we don’t get a response, email each individual
       b. We can always be doing something to prepare
+      
+September 6th: Capstone Kickoff Meeting with Sherrie
+
+  Notes:
+    1. Working with Cal Poly
+      a. collaboration project potentially
+      b. Cal Poly is sticking with California though so it’s separate but aligned in that the data is similar and we are aligning id’s, etc. 
+    2. Focus of pilot on Florida (connection between China/Korea through New York then to Florida) 
+      a. Identifying all forms of human tracking, focusing our efforts 
+    3. Software (We will get an infrastructure document) 
+      a. Microsoft Accenture  
+      b. Splunk
+        i. Way to export data
+        ii. Splunk query we will get documentation doc 
+        iii. Splunk for good
+      c. Microsoft Azure (C#) 
+      d. Minerva
+        i. Aggregation interface 
+        ii. Investigation tool (FBI, Banks, Polaris, private corporations, etc.) 
+      e. Future access: AWS using Jupiter/Notebook (GEN doesn't have access yet) 
+    4. Data
+      a. Scraping google reviews, yelp reviews 
+        i. Reviews sometimes tell whether there’s shady stuff going on 
+      b. Run maps 
+      c. Is this a massage business? If yes, are they engaged in human trafficking?   
+      d. State based data publish disciplinary actions (all named slightly different), pull down files 
+        i. Also all massage studios with business licenses (and massage therapists) 
+        ii. And massage therapists with a record 
+        iii. Had to get case files, read through them, saved each of those 
+        iv. Convert case files to csv’s 
+      e. Now, is it clean enough? 90% of the job is cleaning data 
+      f. Majority of businesses are located in strip malls super close together so gps location is difficult for a normalized id 
+        i. Solution: append suit number 
+     5. Potential Scope
+      a. GeoFencing – creating a grid to help distinguish businesses 
+      b. Creating something to work that out would help scale this. 
+      c. Help tackle the scalability issues, applying the findings from Florida to Washington and/or Oregon.
+      d. Artemis tool we are going to be a part in creating?
+      e. Machine learning, deep learning, image analysis, google satellite images, cctv feeds (image analysis) 
+     6. Timeline
+      a. We need to make that timeline together with Sherrie
+      b. Took about 3 months (full-time) to finish the Florida work 
+      c. List of data we need, collections data
+        i. Can we automate this?
+          1. Adam Maxwell – looking at solutions for scrapers to gather data 
+      d. Cleaning the data
+      e. Then machine learning
+     7. Expectations
+      a. problem solve, clean data, real life work 
+      b. This project is not expected to be 100% complete, a lot of the problems Sherrie presented haven’t been solved by the professionals
+         so those are challenging exciting problems that we can provide a unique viewpoint on.
+      c. In the beginning we are going to spend a lot of time collecting data and figuring out how to make it machine-able 
+     8. Check-ins
+      a. Weekly meeting
+      b. We need a group meeting with the Cal Poly team to sync 
+      c. Splunk for good: Interfacing with Splunk engineers to make sure data is processing okay 
+      d. Accenture: Working with two engineers there, weekly meeting and slack channel devoted to Accenture slack channel 
+        i. They have an algorithm/model they are using and used in Florida 
+        ii. They can field questions about how the pilot project went 
+      9. Best way to reach Sherrie
+       a. Email is good for day-to-day questions 
+       b. We will be added to slack channel that exists 
+
+      
+  Main Idea:
+    Narrow down to find: massage businesses -> those that sell sex -> those engaged in human trafficking 
+    Assigning a risk factor for each business to then give to each end user / stake holder 
+ 
+  Actions:
+    1. Sign NDA, and offensive content document 
+      a. Once Sherrie gets the documents, they will set us up with credentials for: GitHub, Minerva, all those resources at the same time 
+      b. Why? Will have to manually verify data, we might see things that are offensive/disturbing 
+    2. Make sure meetings get set up - Send Sherrie a list of days that work best for us! 
+      a. Sherrie will set up meeting with Accenture 
+    3. Make sure we get all the info we need
+      a. Sherrie will send over the list of scope options 
+      b. We will be added to slack channel that exists 
+      c. How do we know whether or not the massage parlor is actually involved in human trafficking or not?
