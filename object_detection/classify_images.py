@@ -204,8 +204,7 @@ for image_path in TEST_IMAGE_PATHS:
       use_normalized_coordinates=True,
       line_thickness=8,
       min_score_thresh=0.3)
-  # plt.figure(figsize=IMAGE_SIZE)
-  # plt.imshow(image_np)
+
   imsave = Image.fromarray(image_np)
   imsave.save('results/image' + str(iterator) + '.jpg')
   iterator += 1
