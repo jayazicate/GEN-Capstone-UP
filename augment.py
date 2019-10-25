@@ -5,11 +5,11 @@ from imgaug.augmentables.bbs import BoundingBox, BoundingBoxesOnImage
 import os
 import csv
 
-IMAGE_DIR = 'orig/' # directory with original images
-OUTPUT_DIR = 'new/' # directory to save augmented images to
+IMAGE_DIR = 'images/raw/' # directory with original images
+OUTPUT_DIR = 'images/augmented/' # directory to save augmented images to
 NUM_AUG = 3 # number of new augmentations to create for each image
-LABELS_INPUT = 'annotate.csv'
-LABELS_OUTPUT = 'new_annotate.csv'
+LABELS_INPUT = 'raw_labels.csv'
+LABELS_OUTPUT = 'augmented_labels.csv'
 
 ia.seed(4)
 
@@ -32,7 +32,8 @@ with open(LABELS_OUTPUT, 'w', newline='') as csv_file:
 seq = iaa.Sequential([
     iaa.Fliplr(p=0.5), # 50% chance to flip image
     iaa.AdditiveGaussianNoise(scale=(0, 20)), # add between 0-20 gaussian noise
-    iaa.Resize({'height': (0.8, 1.2), 'width': (0.8, 1.2)}) # resize width and height between 80-120%
+    iaa.Resize({'height': (0.8, 1.2), 'width': (0.8, 1.2)}), # resize width and height between 80-120%
+    iaa.Add((-40, 40))
 ], random_order=True) # randomize order of augmentations
 
 progress = 1

@@ -1,0 +1,9 @@
+item {
+    id: 1
+    name: 'clear_window'
+}
+
+item {
+    id: 2
+    name: 'blocked_window'
+}
